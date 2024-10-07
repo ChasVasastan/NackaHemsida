@@ -42,6 +42,13 @@ main {
     background-color: aliceblue;
 }
 
+.nav-image {
+    width: 10%;
+    justify-content: flex-start;
+    display: flex;
+    right: auto;
+}
+
 .footer-item {
     margin-right: 200px;
     margin-left: 200px;
@@ -55,5 +62,4 @@ main {
 .footer-contact:hover {
     text-decoration: underline;
 }
-
 
