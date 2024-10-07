@@ -11,7 +11,9 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 10px;
     padding: 20px;
-    margin: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
 }
 
 .image-grid img{
@@ -19,14 +21,30 @@
     height: 300px;
     display: block;
     object-fit: cover;
+    cursor: pointer;
+}
+
+.enlarged-image {
+    display: none;
+    position: fixed;
+
 }
 
 </style>
 
 </head>
 <body>
-    <br>
-    <br>
+
+    <header>
+        <nav>
+            <img class="nav-image" src="content/images/nacka-black.svg" alt="Nacka Icon">
+            <a class="nav-item" href="index.html">Hem</a>
+            <a class="nav-item" href="aktiviteter.html">Aktiviteter</a>
+            <a class="nav-item" href="flora-och-fauna.html">Flora och Fauna</a>
+            <a class="nav-item" href="galleri.html">Galleri</a>
+        </nav>
+    </header>
+
 
     <div class = "image-grid">
             <img src = "content/images/flaten.jpg" >
